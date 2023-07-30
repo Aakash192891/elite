@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Corporate Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Learning & Development</a></li>
+                            <li><a href="#">HR Outsourcing for Small Businesses</a></li>
+                            <li><a href="#">Welcome to India Services - End to End Support</a></li>
+                            <li><a href="#">Start-Up Support - Everything at One Place</a></li>
+                            <li><a href="#">Bad Debts Collection</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Solutions</a></li>
+                <li class="dropdown">
+                    <a href="#">Jobs</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Current Jobs</a></li>
+                        <li><a href="#">Submit Resume</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>India's leading and growing recruitment company. <br> We are serving our IT and Non IT clients since 2010. </h1>
+
+            <p>Welcome to our thriving recruitment company, dedicated to serving both IT and Non-IT clients since 2010. At Elite Corporate Solutions, we take pride in being India's premier recruitment partner, fueling the growth of businesses across industries.</p>
+
+            <a href="contact.html" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section" id="formSection">
+        <div class="form-container">
+            <div class="form-toggle">
+                <button class="toggle-btn active" onclick="showForm('employer')">Employer</button>
+                <button class="toggle-btn" onclick="showForm('jobseeker')">Job seeker</button>
+            </div>
+            <div class="contact-form" id="employerForm">
+                <h2>Employer Form</h2>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Submit</button>
+            </div>
+            <div class="contact-form" id="jobseekerForm" style="display: none;">
+                <h2>Job Seeker Form</h2>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <input type="file" accept=".pdf,.doc,.docx" required>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!--services-->
+
+    <section class="services">
+        <h1>Our Services</h1>
+        <p>Here are the list of services that we offer.</p>
+
+        <div class="row-services">
+            <div class="services-col">
+                <h3>Learning & Development</h3>
+                <p>We believe in the philosophy of Training your assets which is the manpower the way any high performing sports team does when they are not playing any matches. We develop customized modules for each client and train teams cutting across all level in the organization. </p>
+            </div>
+            <div class="services-col">
+                <h3>HR Outsourcing for Small Businesses</h3>
+                <p>Outsourcing HR can reduce your administration time and allow you to focus on growing your business. Outsourcing means obtaining work that was done by employees previously inside the company from sources outside the company. </p>
+            </div>
+            <div class="services-col">
+                <h3>Welcome to India Services - End to End Support</h3>
+                <p>Setting up business operations internationally presents companies with enormous opportunities along with steep learning curve of business operations and unique challenges related to setting up a company, identifying skilled local talent, taxation, payroll, compliance and much more.</p>
+            </div>
+            <div class="services-col">
+                <h3>Start-up Support - Everything at one place</h3>
+                <p>We understand new business need & challenges to get up and running on a fast mode. Our special package of corporate real estate needs and other professional services help you to identify shortlist and occupy the best real estate for your business. </p>
+            </div>
+            <div class="services-col">
+                <h3>Bad Debts Collection</h3>
+                <p>Business-to-Business (B2B) collections are vital to any company as collecting old & Bad dues will help you to optimize organization's working capital position, lower DSO, write-offs and improve cash flow along with profits. </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Solutions-->
+
+    <section class="solution">
+        <h1>Our Solutions</h1>
+        <p>We offer professional services in identifying and fulfilling your staffing and recruitment needs. <br>
+            <br>
+            Our recruitment experts with domain specialization ensure you hire the best talents from the industry to keep you ever ready for meeting your business challenges. <br>
+            <br>
+            Outsource your recruitments to find key people faster while freeing your management bandwidth for core management activities.</p>
+
+        <div class="row">
+            <div class="solution-col">
+                <img src="images/index/solutions/human-resources.png" alt="human-resources">
+                <div class="layer">
+                    <h3>Complete recruitment process outsourcing</h3>
+                </div>
+            </div>
+
+            <div class="solution-col">
+                <img src="images/index/solutions/wallet.png" alt="wallet">
+                <div class="layer">
+                    <h3>Pay on success fee model</h3>
+                </div>
+            </div>
+
+            <div class="solution-col">
+                <img src="images/index/solutions/time-left.png" alt="time-left">
+                <div class="layer">
+                    <h3>Faster turn around time</h3>
+                </div>
+            </div>
+
+            <div class="solution-col">
+                <img src="images/index/solutions/personal-information.png" alt="personal-information">
+                <div class="layer">
+                    <h3>Wide industry skill database for the perfect match</h3>
+                </div>
+            </div>
+
+            <div class="solution-col">
+                <img src="images/index/solutions/connection.png" alt="connection">
+                <div class="layer">
+                    <h3>Best fit pre-screening facility with multilevel screening</h3>
+                </div>
+            </div>
+
+            <div class="solution-col">
+                <img src="images/index/solutions/light-bulb.png" alt="light-bulb">
+                <div class="layer">
+                    <h3>Head hunting with expert industry connect</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br><br>
+    <!--Industries we cater-->
+
+    <section class="industries">
+        <h1>Industries We Cater</h1>
+        <p>We provide comprehensive consultancy services for businesses across various industries</p>
+
+        <div class="row">
+            <div class="industries-col">
+                <img src="images/index/industries/human-resources-1-300x300.png" alt="human-resources-1-300x300">
+                <h3>Placement Services For Call Centres</h3>
+                <p>Our team is engaged in offering placement service overseas to deserving candidates for call centres.</p>
+            </div>
+
+            <div class="industries-col">
+                <img src="images/index/industries/finance-300x300.png" alt="finance-300x300">
+                <h3>Finance, HR and Admin</h3>
+                <p>We provide various job opportunities to Graduates and Post Graduates in the field of Finance, HR and Admin</p>
+            </div>
+
+            <div class="industries-col">
+                <img src="images/index/industries/social-marketing-300x300.png" alt="social-marketing-300x300">
+                <h3>Marketing & Sales</h3>
+                <p>Every business needs a good marketing and sales team to grow further. We provide jobs for Marketing and Sales in Well Known Companies.</p>
+            </div>
+
+            <div class="industries-col">
+                <img src="images/index/industries/engineering-300x300.png" alt="engineering-300x300">
+                <h3>Engineering</h3>
+                <p>Engineers in various trades are now getting huge opportunities in big companies. We provide jobs to Graduates and Post Graduates.</p>
+            </div>
+
+            <div class="industries-col">
+                <img src="images/index/industries/customer-service-1-300x300.png" alt="customer-service-1-300x300">
+                <h3>BPO and Customer Service</h3>
+                <p>Looking out for a job in BPO? We provide the best BPO and Customer Service jobs for India and Abroad.</p>
+            </div>
+
+            <div class="industries-col">
+                <img src="images/index/industries/project-management-300x300.png" alt="project-management-300x300">
+                <h3>Project Based Hiring</h3>
+                <p>Our team is engaged in offering project based hiring overseas to deserving candidates.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--testimonials-->
+
+    <section class="testimonials">
+        <h1>What Our Customers Say About Us</h1>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <p>They helped me in getting a job very quickly. are very proficient in their work</p>
+                <h3>Rahul Vaidya</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+
+            <div class="testimonial-col">
+                <p>I would like to appreciate Elite Recruitment Team for fulfilling niche requirements that we have from time to time. They had not only understood technical requirements fully but also given best fit candidates.</p>
+                <h3>Kunal Kapoor</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+
+            <div class="testimonial-col">
+                <p>Thanks to them I had a job before I finished my college. I'll surely refer them to others.</p>
+                <h3>Varun Goswami</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--call to action-->
+    <section class="cta">
+        <h1>Contact with us for better guidance <br> Anywhere from India</h1>
+
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+
+    <!--Footer-->
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">About Us</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">Solutions</a></li>
+                <li class="list-inline-item"><a href="#">Contact</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="#">Terms And Conditions</a></li>
+            </ul>
+            <p class="copyright">Elite Corporate Solutions <i class="fa fa-copyright"></i> 2023</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+<!--JavaScript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+<!-- JavaScript for the form toggle -->
+    <script>
+        const employerForm = document.getElementById('employerForm');
+        const jobseekerForm = document.getElementById('jobseekerForm');
+        const employerBtn = document.querySelector('.toggle-btn:nth-child(1)');
+        const jobseekerBtn = document.querySelector('.toggle-btn:nth-child(2)');
+        const formSection = document.getElementById('formSection');
+
+        function showForm(formType) {
+            if (formType === 'employer') {
+                employerForm.style.display = 'block';
+                jobseekerForm.style.display = 'none';
+                employerBtn.classList.add('active');
+                jobseekerBtn.classList.remove('active');
+            } else if (formType === 'jobseeker') {
+                employerForm.style.display = 'none';
+                jobseekerForm.style.display = 'block';
+                employerBtn.classList.remove('active');
+                jobseekerBtn.classList.add('active');
+            }
+        }
+
+        function showFormSection() {
+            formSection.style.display = 'flex';
+            formSection.classList.add('show');
+        }
+
+        // Show the form section when the page loads
+        showFormSection();
+    </script>
+
+
+
+
+
+</body>
+</html>
